@@ -6,7 +6,7 @@ class Contact{
     private double salary;
     private String birthday;
 
-    public Contact(String id,String name,String phoneNumber,String companyName,double salary,String birthday){
+    public Contact(String id,String name,String phoneNumber,String companyName,double salary,String birthday){ // constructor
 
         this.id=id;
         this.name=name;
@@ -17,10 +17,10 @@ class Contact{
 
     }
 
-    public void setId(String id){
+    public void setId(String id){ // setter for id
         this.id=id;
     }
-    public void setName(String name){
+    public void setName(String name){ // setter for name
         this.name=name;
     }
     public void setPhoneNumber(String phoneNumber){
@@ -55,5 +55,6 @@ class Contact{
         return birthday;
     }
     
+
 
 }
