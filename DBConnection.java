@@ -1,4 +1,4 @@
-public class DBConnection {
+public class DBConnection { // setup DB Connection JDBC
 
     private  ContactList contactList;
     private static DBConnection  dbConnection;
@@ -14,7 +14,8 @@ public class DBConnection {
         return dbConnection;
     }
     public  ContactList getContactList(){
-        return contactList;
+        return contactList; 
     }
     
 }
+
