@@ -23,20 +23,20 @@ class Contact{
     public void setName(String name){ // setter for name
         this.name=name;
     }
-    public void setPhoneNumber(String phoneNumber){
+    public void setPhoneNumber(String phoneNumber){ // setter for number 
         this.phoneNumber=phoneNumber;
     }
-    public void setCompanyName(String companyName){
+    public void setCompanyName(String companyName){ // setter for company name
         this.companyName=companyName;
     }
-    public void setSalary(double salary){
+    public void setSalary(double salary){ // setter for salary
         this.salary=salary;
     }
-    public void setBirthday(String birthday){
+    public void setBirthday(String birthday){ // setter for birthday
         this.birthday=birthday;
     }
 
-    public String getId(){
+    public String getId(){ // get id
         return id;
     }
     public String getName(){
@@ -58,3 +58,4 @@ class Contact{
 
 
 }
+
