@@ -25,7 +25,6 @@ hs_err_pid*
 # IDEs
 .idea/
 *.iml
-.vscode/
 
 # Environment variables
 .env
@@ -44,3 +43,7 @@ yarn-error.log
 .Trashes
 ehthumbs.db
 Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
